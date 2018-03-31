@@ -1,0 +1,5 @@
+This folder is for a vegetable themed version of Hangman. The player merely has to press the letter keys to start the game, making sure not to hit number or symbol keys. The player will attempt to click on letters that make up the blank word and can hit nine wrong buttons before the game ends. This game monitors the amount of wrong guesses left before game end, as well as total amount of wins and losses. The game also displays the letters that have already been used, so that the player does not waste guesses on repeats. If they manage to solve the word, they are given a congratulatory alert. If not, they are told Game Over! When a new game starts, a new word is selected randomly and the number of guesses left is set back to nine. Total number of wins and losses does not reset unless the page is refreshed.
+
+No downloading is required to play the game, as it is available to play through an internet browser. It does have to be downloaded to inspect or change the code, and woould thus require a source code editor.
+
+This game was created using HTML, CSS and Javascript.
