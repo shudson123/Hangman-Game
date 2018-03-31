@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <title>Document</title>
+</head>
+<body>
+        
+    <div class= "container">
+        <header>
+            Hangman
+        </header>
+    </div>
+    <div class= "main-container">
+        <div class= "float-left">
+            <img src="assets\images\veggies.jpg">
+        </div>
+            <div class= "float-right">
+                <div class= "scoreBoard">
+                    <div class= "directions">
+                        <p>
+                            Press any key to get started!
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Wins
+                        </p>
+                    <div id= "wins">
+                            8
+                        </div>
+                        <br>
+                        <p>
+                            Losses
+                        </p>
+                    <div id= "losses"></div>
+                    </div>
+                    <div class= "current-word">
+                        <p>
+                            Current Word
+                        </p>
+                        <div id ="wordToGuess">----</div>
+                    </div>
+                </div>
+            
+                    <div class= "guessBox">
+                        <div>
+                            <p>
+                                Number of guesses remaining
+                            </p>
+                        </div>
+                        <div  id= "guessesRemaining">
+                            
+                        </div>
+                        <div id = "gameOver"></div>
+                        <div >
+                            <p>
+                                Letters already guessed
+                            </p>
+                            <div id= "pickedLetters">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="assets\javascript\game.js"></script>
+</html>
